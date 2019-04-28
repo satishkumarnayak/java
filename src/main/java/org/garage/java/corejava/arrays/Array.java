@@ -54,4 +54,16 @@ public class Array {
 		System.out.println("length() of String->" + strArray[0].length());
 	}
 
+	public void anonymous() {
+		add(new int[] { 1, 2, 3 });
+	}
+
+	private void add(int[] param) {
+		int sum = 0;
+		for (int i : param) {
+			sum += i;
+		}
+		System.out.println(sum);
+	}
+
 }

@@ -45,4 +45,9 @@ public class ArrayTest {
 		array.length();
 	}
 
+	@Test
+	public void anonymous() {
+		array.anonymous();
+	}
+
 }
