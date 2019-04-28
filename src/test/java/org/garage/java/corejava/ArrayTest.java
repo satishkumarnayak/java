@@ -35,4 +35,14 @@ public class ArrayTest {
 		array.stringArrayIntitalWithDefaultValue();
 	}
 
+	@Test
+	public void stringArrayWithDefaultValue() {
+		array.stringArrayWithDefaultValue();
+	}
+
+	@Test
+	public void length() {
+		array.length();
+	}
+
 }

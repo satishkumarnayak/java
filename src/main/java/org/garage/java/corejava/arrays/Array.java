@@ -37,4 +37,21 @@ public class Array {
 		}
 	}
 
+	public void stringArrayWithDefaultValue() {
+		strArray2[0] = "I";
+		strArray2[1] = "am";
+		strArray2[2] = "fine";
+
+		for (String s : strArray2) {
+			System.out.println(s);
+
+		}
+	}
+
+	public void length() {
+		int length = strArray.length;
+		System.out.println("length of array->" + length);
+		System.out.println("length() of String->" + strArray[0].length());
+	}
+
 }
