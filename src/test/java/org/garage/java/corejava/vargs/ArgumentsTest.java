@@ -14,6 +14,7 @@ public class ArgumentsTest {
 		arg = new Arguments();
 	}
 
+	
 	@Test
 	public void vargTest() {
 		assertEquals(0, arg.vargMethod(0));
