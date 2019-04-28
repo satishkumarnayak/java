@@ -10,12 +10,9 @@ public class Vars {
 		var.instanceVariable = param;
 		return var.instanceVariable;
 	}
-	
+
 	public static int staticMethodTwo() {
 		return staticVarible;
 	}
-	
-	
-	
 
 }

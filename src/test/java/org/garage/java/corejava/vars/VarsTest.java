@@ -29,7 +29,7 @@ public class VarsTest {
 		var.staticVarible = 3;
 		assertEquals(3, var.staticMethodTwo());
 	}
-	
+
 	@Test
 	public void staticVariableClassAccessFromStaticMethodest() {
 		Vars.staticVarible = 5;
