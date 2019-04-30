@@ -20,7 +20,9 @@ public class FlowControl {
 		}
 
 	}
-
+/**
+ * Target can be Iterable or array , Collection implements java.lang.Iterable.iterator()
+ */
 	public void foreach() {
 		int[] array = { 10, 20, 30, 40 };
 		// int[] array2;
