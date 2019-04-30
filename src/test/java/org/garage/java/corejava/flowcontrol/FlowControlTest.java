@@ -19,4 +19,9 @@ public class FlowControlTest {
 		flowControl.switchEx(3);
 	}
 
+	@Test
+	public void foreachTest() {
+		flowControl.foreach();
+	}
+
 }
