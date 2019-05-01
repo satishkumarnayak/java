@@ -8,4 +8,7 @@ public class DeclareAccess4 extends DeclareAccess {
 		da4.mtwo();
 	}
 
+	public static void mfour() {
+		System.out.println("mfour in child");
+	}
 }

@@ -11,6 +11,7 @@ public class DeclareAccess2  extends DeclareAccess{
 		DeclareAccess da = new DeclareAccess();
 //		da.mone() // compile time issue 
 		da.mthree();
+		DeclareAccess2 da3 = (DeclareAccess2) new DeclareAccess();
 		
 	}
 

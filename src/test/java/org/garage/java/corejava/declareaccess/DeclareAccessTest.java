@@ -19,9 +19,16 @@ public class DeclareAccessTest {
 		assertEquals(2, da.regularImports(4));
 	}
 
-	@Test
+//	@Test
 	public void staticImportsTest() {
 		assertEquals(4, da.staticImports(16));
+	}
+	
+//	@Test
+	public void staticmethod() {
+		DeclareAccess.mfour();
+		DeclareAccess4.mfour();
+		da.mfour();
 	}
 
 }
