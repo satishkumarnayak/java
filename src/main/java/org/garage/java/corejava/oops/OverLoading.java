@@ -15,9 +15,17 @@ public class OverLoading {
 	public void methodOne(String param) {
 		System.out.println(" methodOne String param");
 	}
-	
+
 	public void methodOne(Object param) {
 		System.out.println(" methodOne Object param");
+	}
+
+	public void methodOne(int param, float param2) {
+		System.out.println(" methodOne int float");
+	}
+
+	public void methodOne(float param, int param2) {
+		System.out.println(" methodOne float int");
 	}
 
 }
