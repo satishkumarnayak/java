@@ -28,5 +28,19 @@ public class OverLoadingTest {
 	public void testWithChar() {
 		o.methodOne('a');
 	}
+	
+	@Test
+	public void testWithString() {
+		o.methodOne("hello");
+	}
+	
+	@Test
+	public void testWithNull() {
+		o.methodOne(null);
+	}
 
+	@Test
+	public void testWithOject() {
+		o.methodOne(new Object());
+	}
 }
