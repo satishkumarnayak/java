@@ -69,7 +69,7 @@ public class MultiThreadingTest {
 	 * If a Thread don't want to perform any operation for a particular amount of
 	 * time then we should go for sleep() method.
 	 */
-	@Test
+//	@Test
 	public void threadByThreadSleep() {
 
 		MyThreadSleep t = new MyThreadSleep();
@@ -83,7 +83,7 @@ public class MultiThreadingTest {
 	 * If a Thread can interrupt a sleeping or waiting Thread by using
 	 * interrupt()(break off) method of Thread class.
 	 */
-	@Test
+//	@Test
 	public void threadByThreadInterrupt() {
 
 		MyThreadSleep t = new MyThreadSleep();
@@ -92,5 +92,12 @@ public class MultiThreadingTest {
 
 		System.out.println("test main thread");
 	}
-
-}
+	/*
+	 * @Test public void threadSynchronized() {
+	 * 
+	 * Display d = new Display(); ThreadSync t1 = new ThreadSync(d, "evyaan");
+	 * ThreadSync t2 = new ThreadSync(d, "varun"); t1.start(); t2.start();
+	 * 
+	 * System.out.println("test main thread"); }
+	 * 
+	 */}
