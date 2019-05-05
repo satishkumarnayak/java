@@ -16,15 +16,17 @@ public class LinkedListGarageTest {
 		ll = new LinkedListGarage();
 	}
 
-	/**
+	
+	/*
 	 * 1. The underlying data structure is double LinkedList 2. If our frequent
 	 * operation is insertion (or) deletion in the middle then LinkedList is the
-	 * best choice. 3. If our frequent operation is retrieval operation then
+	 * best choice. 3. If our frequent operation is retrieval operation the
 	 * LinkedList is worst choice. 4. Duplicate objects are allowed. 5. Insertion
 	 * order is preserved. 6. Heterogeneous objects are allowed. 7. Null insertion
 	 * is possible. 8. Implements Serializable and Cloneable interfaces but not
 	 * RandomAccess. Usually we can use LinkedList to implement Stacks and Queues.
-	 **/
+	 */
+	 
 	@Test
 	public void testLinkedList() {
 
