@@ -1,6 +1,6 @@
 package org.garage.java.corejava.lang.pkg;
 
-public class ObjectClass {
+public class ObjectGarage {
 
 }
 

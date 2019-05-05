@@ -5,13 +5,13 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class ObjectClassTest {
+public class ObjectGarageTest {
 
-	ObjectClass obj;
+	ObjectGarage obj;
 
 	@Before
 	public void setUp() throws Exception {
-		obj = new ObjectClass();
+		obj = new ObjectGarage();
 	}
 
 	@Test
